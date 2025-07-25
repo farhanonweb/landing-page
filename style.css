@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #3e2e1d; /* Dark brown for text */
+  background: #faf7f2; /* Light wood-like background */
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #8b5e3c; /* Warm wood tone */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3e2e1d;
+}
+
+.nav-links .btn {
+  background: #8b5e3c;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  transition: background 0.3s;
+}
+
+.nav-links .btn:hover {
+  background: #6d442b;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  background: #8b5e3c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.hero .btn:hover {
+  background: #6d442b;
+}
+
+section h2 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: #8b5e3c;
+}
+
+.feature-cards, .testimonial-cards {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.about, .contact {
+  text-align: center;
+  margin: 4rem 0;
+  padding: 0 1rem;
+}
+
+.contact .btn {
+  background: #8b5e3c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.contact .btn:hover {
+  background: #6d442b;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  color: #6d442b;
+}
